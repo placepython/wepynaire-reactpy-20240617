@@ -1,0 +1,76 @@
+[
+{
+    "model": "pages.category",
+    "fields": {
+        "name": "Fruits",
+        "slug": "fruits"
+    }
+},
+{
+    "model": "pages.category",
+    "fields": {
+        "name": "Vegetables",
+        "slug": "vegetables"
+    }
+},
+{
+    "model": "pages.product",
+    "fields": {
+        "name": "Dragonfruit",
+        "slug": "dragonfruit",
+        "price": "1.00",
+        "stocked": true,
+        "category": [
+            "fruits"
+        ]
+    }
+},
+{
+    "model": "pages.product",
+    "fields": {
+        "name": "Passionfruit",
+        "slug": "passionfruit",
+        "price": "2.00",
+        "stocked": false,
+        "category": [
+            "fruits"
+        ]
+    }
+},
+{
+    "model": "pages.product",
+    "fields": {
+        "name": "Spinach",
+        "slug": "spinach",
+        "price": "1.00",
+        "stocked": true,
+        "category": [
+            "vegetables"
+        ]
+    }
+},
+{
+    "model": "pages.product",
+    "fields": {
+        "name": "Pumpkin",
+        "slug": "pumpkin",
+        "price": "4.00",
+        "stocked": false,
+        "category": [
+            "vegetables"
+        ]
+    }
+},
+{
+    "model": "pages.product",
+    "fields": {
+        "name": "Peas",
+        "slug": "peas",
+        "price": "1.00",
+        "stocked": true,
+        "category": [
+            "vegetables"
+        ]
+    }
+}
+]
